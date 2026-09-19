@@ -6,6 +6,14 @@ authors = ["Aryntra Research"]
 description = "Hybrid Peer Connectivity Architecture reference & research project"
 license = "MIT"
 
+[features]
+default = []
+bluetooth = []
+
 [dependencies]
+ed25519-dalek = { version = "2.1", features = ["rand_core"] }
+rand = "0.8"
+hex = "0.4"
+lazy_static = "1.4"
 
 [dev-dependencies]
