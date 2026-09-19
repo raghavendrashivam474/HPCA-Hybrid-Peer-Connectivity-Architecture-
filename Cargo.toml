@@ -1,0 +1,11 @@
+﻿[package]
+name = "hpca"
+version = "0.1.0"
+edition = "2021"
+authors = ["Aryntra Research"]
+description = "Hybrid Peer Connectivity Architecture reference & research project"
+license = "MIT"
+
+[dependencies]
+
+[dev-dependencies]
